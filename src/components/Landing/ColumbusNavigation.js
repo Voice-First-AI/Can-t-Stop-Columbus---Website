@@ -30,7 +30,7 @@ export class ColumbusNavigation extends Component {
         return (
             <div>
                 <Navigation>
-                    <a href="https://coronavirus.ohio.gov/wps/portal/gov/covid-19/">Ohio COROVID-19</a>
+                    <a href="https://coronavirus.ohio.gov/wps/portal/gov/covid-19/">Ohio COVID-19</a>
                     <a href="https://join.slack.com/t/cantstopcolumbus/shared_invite/zt-cs7p7uxc-QskndeRo_X4b1ovyVJetxg">Join Slack</a>
                     <a href="https://app.slack.com/client/T0101PN34J1/">Open Slack</a>
                 </Navigation>
