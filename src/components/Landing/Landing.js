@@ -16,7 +16,7 @@ export class Home extends Component {
                             <ColumbusNavigation></ColumbusNavigation>
                         </Cell>
                     </Header>
-                    <Drawer title="Interactive Albums">
+                    <Drawer title="#cantstopcolumbus">
                         <ColumbusNavigation></ColumbusNavigation>
                     </Drawer>
                     <Grid className='landing-grid'>
@@ -76,7 +76,7 @@ export class Home extends Component {
                                     Twitter is Earth's realtime communication channel. One tweet is all it takes to spread awareness and fight COVID-19.
                                 </CardText>
                                 <CardActions border>
-                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" children={<Button raised accent ripple>Tweet</Button>} title={"Want to help Columbus fight rapid-response against COROVID-19? Join the Can't Stop Columbus Hackathon."} hashtags={["COVID19OhioReady"]}></TwitterShareButton>
+                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" children={<Button raised accent ripple>Tweet</Button>} title={"Want to help Columbus fight rapid-response against COVID-19? Join the Can't Stop Columbus Hackathon."} hashtags={["COVID19OhioReady", "cantstopcolumbus"]}></TwitterShareButton>
                                 </CardActions>
                             </Card>
                         </Cell>
