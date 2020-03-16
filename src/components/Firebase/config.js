@@ -4,14 +4,14 @@ import 'firebase/auth';
 import 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCLbQh8h8ILes08XXds40U6FNl-Xo7u0fc",
-    authDomain: "musician-ai.firebaseapp.com",
-    databaseURL: "https://musician-ai.firebaseio.com",
-    projectId: "musician-ai",
-    storageBucket: "musician-ai.appspot.com",
-    messagingSenderId: "1040193026135",
-    appId: "1:1040193026135:web:31faed6d3a37a6d2f94b12",
-    measurementId: "G-6J8XHDBY0C"
+    apiKey: "AIzaSyCravd03Ehu4B0H7Rpm2BXv-rHtQS1h5Eg",
+    authDomain: "cantstopcolumbus.firebaseapp.com",
+    databaseURL: "https://cantstopcolumbus.firebaseio.com",
+    projectId: "cantstopcolumbus",
+    storageBucket: "cantstopcolumbus.appspot.com",
+    messagingSenderId: "988752627379",
+    appId: "1:988752627379:web:b4db2b03ba65e86f5012c6",
+    measurementId: "G-NRNHMP537H"
 };
 
 firebase.initializeApp(firebaseConfig);
