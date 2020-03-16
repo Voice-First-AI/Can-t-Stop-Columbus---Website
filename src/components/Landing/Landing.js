@@ -27,7 +27,7 @@ export class Home extends Component {
                                             [
                                                 'Hello Columbus Citizen :)', 
                                                 'We need YOUR help!',
-                                                'Welcome to the Can\'t Stop Columbus',
+                                                'Welcome to the Can\'t Stop Columbus Hackathon',
                                                 'We are an open community of hackers',
                                                 'We are an open community of politicians',
                                                 'We are an open community of designers',
@@ -50,7 +50,7 @@ export class Home extends Component {
                             <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Planning Doc</CardTitle>
                                 <CardText>
-                                    Primary for ALL hackathon resources. Includes: Planning, Team Formation, Ideas, etc to fight COROVID-19.
+                                    Primary for ALL hackathon resources. Includes: Planning, Team Formation, Ideas, etc to fight COVID-19.
                                 </CardText>
                                 <CardActions border>
                                     <a href = "https://docs.google.com/spreadsheets/d/16rHl_qXc1wp8vSg_Ux8YXdYe_F_B88ghLW7ese2YFec/edit?usp=sharing"><Button ripple accent raised >Get Started</Button></a>
@@ -61,7 +61,7 @@ export class Home extends Component {
                             <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Slack Channel</CardTitle>
                                 <CardText>
-                                    Chat for ALL hackathon communications. Check it out, collaborate, form a team, and save the day from COROVID-19.
+                                    Chat for ALL hackathon communications. Check it out, collaborate, form a team, and save the day from COVID-19.
                                 </CardText>
                                 <CardActions border>
                                     <a href = "https://app.slack.com/client/T0101PN34J1/"><Button ripple accent raised >Get Started</Button></a>
@@ -72,7 +72,7 @@ export class Home extends Component {
                             <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Spread the Word</CardTitle>
                                 <CardText>
-                                    Twitter is Earth's realtime communication channel. One tweet is all it takes to spread awareness and fight COROVID-19.
+                                    Twitter is Earth's realtime communication channel. One tweet is all it takes to spread awareness and fight COVID-19.
                                 </CardText>
                                 <CardActions border>
                                     <Button onClick={this.onNext} ripple accent raised >Get Started</Button>
