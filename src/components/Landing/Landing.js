@@ -91,6 +91,7 @@ export class Home extends Component {
                                 </CardActions>
                             </Card>
                         </Cell>
+                        <a id="github" href="https://github.com/VoiceFirstTech/Can-t-Stop-Columbus---Website" target="_blank" rel="noopener noreferrer">Made with &#60;3 by Columbus on GitHub</a>
                     </Grid>
                 </Layout>
             </div>

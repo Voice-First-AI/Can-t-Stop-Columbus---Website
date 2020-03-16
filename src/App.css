@@ -3,6 +3,11 @@
   background: #4500C4;  /* fallback for old browsers */
 }
 
+#github {
+  position: fixed !important;
+  right: 15px;
+  bottom: 15px;
+}
 .landing-grid {
   text-align: center;
   width: 100%;
