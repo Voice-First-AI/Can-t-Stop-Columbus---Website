@@ -26,7 +26,7 @@ export class Home extends Component {
                                     <Typed
                                         strings={
                                             [
-                                                'Hello Columbus Citizen :)', 
+                                                'Hello Columbus Resident :)', 
                                                 'We need YOUR help!',
                                                 'Welcome to the Can\'t Stop Columbus Hackathon',
                                                 'We are an open community of hackers',
