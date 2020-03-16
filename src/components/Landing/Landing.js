@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Layout, Header, Drawer, Card, CardTitle, CardText, CardActions, Button, FABButton, Icon} from 'react-mdl';
+import { Grid, Cell, Layout, Header, Drawer, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 import ColumbusNavigation from './ColumbusNavigation';
+import {TwitterShareButton} from "react-share";
 
 export class Home extends Component {
 
@@ -46,7 +47,7 @@ export class Home extends Component {
                                 </h1>
                             </div>
                         </Cell>
-                        <Cell col={4} hideTablet hidePhone>
+                        <Cell col={4}>
                             <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Planning Doc</CardTitle>
                                 <CardText>
@@ -57,7 +58,7 @@ export class Home extends Component {
                                 </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} hideTablet hidePhone>
+                        <Cell col={4}>
                             <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Slack Channel</CardTitle>
                                 <CardText>
@@ -68,21 +69,16 @@ export class Home extends Component {
                                 </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={4} hideTablet hidePhone>
+                        <Cell col={4}>
                             <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Spread the Word</CardTitle>
                                 <CardText>
                                     Twitter is Earth's realtime communication channel. One tweet is all it takes to spread awareness and fight COVID-19.
                                 </CardText>
                                 <CardActions border>
-                                    <Button onClick={this.onNext} ripple accent raised >Get Started</Button>
+                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" children={<Button raised accent ripple>Tweet</Button>} title={"Want to help Columbus fight rapid-response against COROVID-19? Join the Can't Stop Columbus Hackathon."} hashtags={["COVID19OhioReady"]}></TwitterShareButton>
                                 </CardActions>
                             </Card>
-                        </Cell>
-                        <Cell col={12} hideDesktop>
-                            <FABButton colored ripple onClick={this.onNext} style={{position: "fixed", left: "50px", bottom: "50px"}}>
-                                <Icon name="add" />
-                            </FABButton>
                         </Cell>
                     </Grid>
                 </Layout>
