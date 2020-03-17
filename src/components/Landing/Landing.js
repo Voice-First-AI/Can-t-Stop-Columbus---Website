@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 import ColumbusNavigation from './ColumbusNavigation';
 import {TwitterShareButton} from "react-share";
+import { SocialIcon } from 'react-social-icons';
 
 export class Home extends Component {
 
@@ -28,16 +29,16 @@ export class Home extends Component {
                                             [
                                                 'Hello Columbus Resident :)', 
                                                 'We need YOUR help!',
-                                                'Welcome to the Can\'t Stop Columbus Hackathon',
+                                                'Welcome to Can\'t Stop Columbus',
                                                 'We are an open community of hackers',
                                                 'We are an open community of politicians',
                                                 'We are an open community of designers',
                                                 'We are an open community of doctors',
                                                 'We are an open community of problem solvers',
-                                                'We are an open community of hackers',
-                                                'Join the Hackathon',
+                                                'We are an open community of thinkers',
+                                                'Join the Movement',
                                                 'Spark the Solution',
-                                                'Hackathon Starts March 26, 2020'
+                                                '#cantstopcolumbus'
                                             ]
                                         }
                                         typeSpeed={40}
@@ -62,7 +63,7 @@ export class Home extends Component {
                             <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Planning Doc</CardTitle>
                                 <CardText>
-                                    Primary for ALL hackathon resources. Includes: Planning, Team Formation, Ideas, etc to fight COVID-19.
+                                    Primary for ALL #cantstopcolumbus resources. Includes: Planning, Team Formation, Ideas, etc to fight COVID-19.
                                 </CardText>
                                 <CardActions border>
                                     <a href = "https://docs.google.com/spreadsheets/d/16rHl_qXc1wp8vSg_Ux8YXdYe_F_B88ghLW7ese2YFec/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><Button ripple accent raised >Get Started</Button></a>
@@ -73,7 +74,7 @@ export class Home extends Component {
                             <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Slack Channel</CardTitle>
                                 <CardText>
-                                    Chat for ALL hackathon communications. Check it out, collaborate, form a team, and save the day from COVID-19.
+                                    Chat for ALL #cantstopcolumbus communications. Check it out, collaborate, form a team, and save the day from COVID-19.
                                 </CardText>
                                 <CardActions border>
                                     <a href = "https://app.slack.com/client/T0101PN34J1/" target="_blank" rel="noopener noreferrer"><Button ripple accent raised >Get Started</Button></a>
@@ -87,11 +88,19 @@ export class Home extends Component {
                                     Twitter is Earth's realtime communication channel. One tweet is all it takes to spread awareness and fight COVID-19. #cantstopcolumbus 
                                 </CardText>
                                 <CardActions border>
-                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" children={<Button raised accent ripple>Tweet</Button>} title={"Want to help Columbus fight rapid-response against COVID-19? Join the Can't Stop Columbus Hackathon."} hashtags={["COVID19OhioReady", "cantstopcolumbus"]}></TwitterShareButton>
+                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" children={<Button raised accent ripple>Tweet</Button>} title={"Want to help Columbus fight rapid-response against COVID-19? Join the Can't Stop Columbus Movement."} hashtags={["cantstopcolumbus","COVID19OhioReady"]}></TwitterShareButton>
                                 </CardActions>
                             </Card>
                         </Cell>
-                        <a id="github" href="https://github.com/VoiceFirstTech/Can-t-Stop-Columbus---Website" target="_blank" rel="noopener noreferrer">Made with &#60;3 by Columbus on GitHub</a>
+                        <Cell col={4} tablet={12} phone={12}>
+                            <SocialIcon url="https://www.instagram.com/cantstopcbus/" />
+                        </Cell>
+                        <Cell col={4} tablet={12} phone={12}>
+                            <a id="github" href="https://github.com/VoiceFirstTech/Can-t-Stop-Columbus---Website" target="_blank" rel="noopener noreferrer">Made with &#60;3 by Columbus on GitHub</a>
+                        </Cell>
+                        <Cell col={4} tablet={12} phone={12}>
+                            <SocialIcon url="https://twitter.com/cantstopcbus" />
+                        </Cell>
                     </Grid>
                 </Layout>
             </div>
