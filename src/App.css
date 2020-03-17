@@ -4,10 +4,9 @@
 }
 
 #github {
-  position: fixed !important;
-  right: 15px;
-  bottom: 15px;
+  bottom: 10px;
 }
+
 .landing-grid {
   text-align: center;
   width: 100%;

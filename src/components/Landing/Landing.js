@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 import ColumbusNavigation from './ColumbusNavigation';
 import {TwitterShareButton} from "react-share";
+import { SocialIcon } from 'react-social-icons';
 
 export class Home extends Component {
 
@@ -91,7 +92,15 @@ export class Home extends Component {
                                 </CardActions>
                             </Card>
                         </Cell>
-                        <a id="github" href="https://github.com/VoiceFirstTech/Can-t-Stop-Columbus---Website" target="_blank" rel="noopener noreferrer">Made with &#60;3 by Columbus on GitHub</a>
+                        <Cell col={4} tablet={12} phone={12}>
+                            <SocialIcon url="https://www.instagram.com/cantstopcbus/" />
+                        </Cell>
+                        <Cell col={4} tablet={12} phone={12}>
+                            <a id="github" href="https://github.com/VoiceFirstTech/Can-t-Stop-Columbus---Website" target="_blank" rel="noopener noreferrer">Made with &#60;3 by Columbus on GitHub</a>
+                        </Cell>
+                        <Cell col={4} tablet={12} phone={12}>
+                            <SocialIcon url="https://twitter.com/cantstopcbus" />
+                        </Cell>
                     </Grid>
                 </Layout>
             </div>
