@@ -61,6 +61,28 @@ export class Home extends Component {
                         </Cell>
                         <Cell col={4} tablet={12} phone={12}>
                             <Card shadow={0} style={{ margin: 'auto' }}>
+                                <CardTitle>Volunteer</CardTitle>
+                                <CardText>
+                                   Sign up to volunteer your time unique skills to help fight COROVID-19.
+                                </CardText>
+                                <CardActions border>
+                                    <a href = "https://airtable.com/shrDrTCZQmDlCN8sg" target="_blank" rel="noopener noreferrer"><Button ripple accent raised >Sign Up</Button></a>
+                                </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} tablet={12} phone={12}>
+                            <Card shadow={0} style={{ margin: 'auto' }}>
+                                <CardTitle>Spread the Word</CardTitle>
+                                <CardText>
+                                    Twitter is Earth's realtime communication channel. One tweet is all it takes to spread awareness and fight COVID-19. #cantstopcolumbus 
+                                </CardText>
+                                <CardActions border>
+                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" children={<Button raised accent ripple>Tweet</Button>} title={"Want to help Columbus fight rapid-response against COVID-19? Join the Can't Stop Columbus Movement."} hashtags={["cantstopcolumbus","COVID19OhioReady"]}></TwitterShareButton>
+                                </CardActions>
+                            </Card>
+                        </Cell>
+                        <Cell col={4} tablet={12} phone={12} offsetDesktop={4}>
+                            <Card shadow={0} style={{ margin: 'auto' }}>
                                 <CardTitle> Planning Doc</CardTitle>
                                 <CardText>
                                     Primary for ALL #cantstopcolumbus resources. Includes: Planning, Team Formation, Ideas, etc to fight COVID-19.
@@ -81,25 +103,17 @@ export class Home extends Component {
                                 </CardActions>
                             </Card>
                         </Cell>
-                        <Cell col={12} >
-                            <Card shadow={0} style={{ margin: 'auto' }}>
-                                <CardTitle> Spread the Word</CardTitle>
-                                <CardText>
-                                    Twitter is Earth's realtime communication channel. One tweet is all it takes to spread awareness and fight COVID-19. #cantstopcolumbus 
-                                </CardText>
-                                <CardActions border>
-                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" children={<Button raised accent ripple>Tweet</Button>} title={"Want to help Columbus fight rapid-response against COVID-19? Join the Can't Stop Columbus Movement."} hashtags={["cantstopcolumbus","COVID19OhioReady"]}></TwitterShareButton>
-                                </CardActions>
-                            </Card>
-                        </Cell>
-                        <Cell col={4} tablet={12} phone={12}>
+                        <Cell col={1} tablet={12} phone={12}>
                             <SocialIcon url="https://www.instagram.com/cantstopcbus/" />
                         </Cell>
-                        <Cell col={4} tablet={12} phone={12}>
-                            <a id="github" href="https://github.com/VoiceFirstTech/Can-t-Stop-Columbus---Website" target="_blank" rel="noopener noreferrer">Made with &#60;3 by Columbus on GitHub</a>
+                        <Cell col={1} tablet={12} phone={12}>
+                            <SocialIcon url="https://www.linkedin.com/company/cant-stop-columbus" />
                         </Cell>
-                        <Cell col={4} tablet={12} phone={12}>
+                        <Cell col={1} tablet={12} phone={12}>
                             <SocialIcon url="https://twitter.com/cantstopcbus" />
+                        </Cell>
+                        <Cell col={1} tablet={12} phone={12}>
+                            <a id="github" href="https://github.com/VoiceFirstTech/Can-t-Stop-Columbus---Website" target="_blank" rel="noopener noreferrer">Made with &#60;3 by Columbus on GitHub</a>
                         </Cell>
                     </Grid>
                 </Layout>
