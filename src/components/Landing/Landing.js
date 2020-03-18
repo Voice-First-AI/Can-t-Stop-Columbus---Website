@@ -6,7 +6,6 @@ import {TwitterShareButton} from "react-share";
 import { SocialIcon } from 'react-social-icons';
 
 export class Home extends Component {
-
     render() {
         return (
             <div style={{ width: '100%', margin: 'auto'}}>
@@ -56,7 +55,7 @@ export class Home extends Component {
                                     Twitter is Earth's realtime communication channel. One tweet is all it takes to spread awareness and fight COVID-19. #cantstopcolumbus 
                                 </CardText>
                                 <CardActions border>
-                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" children={<Button raised accent ripple>Tweet</Button>} title={"Want to help Columbus fight rapid-response against COVID-19? Join the Can't Stop Columbus Movement."} hashtags={["cantstopcolumbus","COVID19OhioReady"]}></TwitterShareButton>
+                                    <TwitterShareButton url="https://cantstopcolumbus.web.app/" title={"Want to help Columbus fight rapid-response against COVID-19? Join the Can't Stop Columbus Movement."} hashtags={["cantstopcolumbus","COVID19OhioReady"]}>TWEET</TwitterShareButton>
                                 </CardActions>
                             </Card>
                         </Cell>
