@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Layout, Header, Drawer, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 import { Link } from 'react-router-dom';
-import Typed from 'react-typed';
 import ColumbusNavigation from './ColumbusNavigation';
 import {TwitterShareButton} from "react-share";
 import { SocialIcon } from 'react-social-icons';
@@ -24,27 +23,7 @@ export class Home extends Component {
                         <Cell col={12}>
                             <div className="banner-text">
                                 <h1>
-                                    <Typed
-                                        strings={
-                                            [
-                                                'Hello Columbus Resident :)', 
-                                                'We need YOUR help!',
-                                                'Welcome to Can\'t Stop Columbus',
-                                                'We are an open community of hackers',
-                                                'We are an open community of politicians',
-                                                'We are an open community of designers',
-                                                'We are an open community of doctors',
-                                                'We are an open community of problem solvers',
-                                                'We are an open community of thinkers',
-                                                'Join the Movement',
-                                                'Spark the Solution',
-                                                '#cantstopcolumbus'
-                                            ]
-                                        }
-                                        typeSpeed={40}
-                                        backSpeed={50}
-                                        loop
-                                    />
+                                    Can't Stop Columbus
                                 </h1>
                             </div>
                         </Cell>
