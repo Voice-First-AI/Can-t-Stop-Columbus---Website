@@ -28,7 +28,7 @@ export class Home extends Component {
                         </Cell>
                         <Cell col={4} tablet={12} phone={12}>
                             <Card shadow={0} style={{ margin: 'auto' }}>
-                                <CardTitle>#canstopcolumbus Proposal</CardTitle>
+                                <CardTitle>#CantStopColumbus Proposal</CardTitle>
                                 <CardText>
                                 On Sunday night, the Columbus tech and business community started talking about the idea of a virtual hackathon in response to the Covid-19 situation. With social distancing, no school, remote work, and a sense of urgency, there’s a lot of energy focused on helping. We proposed an online hacking event where anyone can contribute by defining challenges, building projects, and sharing resources.
                                 </CardText>
